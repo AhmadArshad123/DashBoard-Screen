@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Animal Registered",
+    "count": "5618",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Premises",
+    "count": "24577",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Quarantine",
+    "count": "76543",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Total Imports",
+    "count": "1056",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Total Exports",
+    "count": "2568",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Campaigns",
+    "count": "0000",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "Lab Tests",
+    "count": "5618",
+    "color": "#2D6C98"
+  },
+
+  {
+    "name": "All",
+    "count": "0000",
+    "color": "#2D6C98"
+  }
+]

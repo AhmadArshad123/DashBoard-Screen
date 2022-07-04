@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:orientation="horizontal">
+                <RelativeLayout
+                    android:id="@+id/rl_cows_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@drawable/bg_cow"
+                    android:padding="@dimen/_11sdp">
+
+                        <TextView
+                            android:id="@+id/tv_total_cows"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:text="Total Cows"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12ssp" />
+
+                        <TextView
+                            android:id="@+id/tv_cows_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_total_cows"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="816"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_total_cows"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_toEndOf="@+id/tv_total_cows"
+                            android:src="@drawable/ic_cow" />
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"    />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="@dimen/_11sdp"
+                    android:background="@drawable/bg_buffalos">
+                        <TextView
+                            android:id="@+id/tv_total_buffalos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Cows"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12ssp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_cows_buffalos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_total_buffalos"
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:text="1016"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_total_buffalos"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_toEndOf="@+id/tv_total_buffalos"
+                            android:src="@drawable/ic_buffalo" />
+                </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_animal_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Animal Stats:"
+            android:textSize="@dimen/_17ssp"
+            android:layout_weight=".7"
+
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_card_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="@dimen/_20sdp"
+            android:background="@drawable/bg_new_registration"
+            android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                           >
+
+                        <ImageView
+                            android:id="@+id/iv_new_registration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_new_registration"
+                            android:layout_marginEnd="@dimen/_13sdp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/iv_new_registration"
+                            android:text="New Registration"
+                            android:textColor="#403572"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:src="@drawable/ic_arrow_new_registration" />
+
+                        </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv_new_registration_description"
+                    android:textColor="#403572"
+                    android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:padding="@dimen/_20sdp"
+            android:background="@drawable/bg_statistic_chart"
+            android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                        <ImageView
+                            android:id="@+id/iv_statistic_chart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_13sdp"
+                            android:src="@drawable/ic_statistics_chart" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/iv_statistic_chart"
+                            android:text="Statistic Charts"
+                            android:textColor="#FF5648"
+                            android:textSize="@dimen/_13sdp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="@dimen/_10sdp"
+
+                            android:src="@drawable/ic_arrow_statistic_chart" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/tv_statistic_chart_description"
+                    android:textColor="#FF5648"
+                    android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+</LinearLayout>

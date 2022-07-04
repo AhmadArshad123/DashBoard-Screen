@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DashBoard</string>
+    <string name="tv_new_registration_description">To begin new registration press next \n icon</string>
+    <string name="tv_title_card">Premises</string>
+    <string name="tv_count_card">1056</string>
+    <string name="tv_statistic_chart_description">To create new statistic chart press next \n icon</string>
+</resources>

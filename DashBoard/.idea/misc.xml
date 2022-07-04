@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/bg_statistic_chart.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_all.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_aminal_registered.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_arrow.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_arrow_new_registration.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_arrow_staticric_chart.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_arrow_statistic_chart.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_compaigns.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_lab_tests.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_new_registration.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_premises.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_qurantine.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_statistics_chart.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_total_exports.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/ic_total_imports.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/drawable/round_corners.xml" value="0.138" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/PITB/DashBoard/app/src/main/res/layout/stats_card.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
